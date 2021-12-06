@@ -6,7 +6,7 @@ My bachelor study program was Business Computing (Wirtschaftsinformatik B.Sc).
 5. Semester, October-November 2019.    
 The project was carried out as part of the course Special database concepts/techniques. The project assignment was completed with a grade of 1.0.
 
-The assessment of this course consisted of the completion of 3 tasks in which a scenario from the field of public transport is processed. Some parts of the code such as connection to SAP HANA were initially provided as learning materials.
+The assessment of this course consisted of 3 tasks processing a scenario from the field of public transport in Berlin, based on real map data provided from an external API. The user can enter the departure time, the address of the starting location, the address of the final destination and select one of the following options: the fastest route or the least number of stations. The program will determine the nearest start and end stations suburban and subway trains and calculate the optimal route based on the given data. Some parts of the code such as connection to SAP HANA were initially provided as learning materials.
 
 **Task 1: Mobility - Data acquisition (30 points).** Creating tables in the database and developing JavaScript code that imports data directly from the web into the stage tables and transfers the data from the stage tables to the target tables. The data must be processed and filtered, excluding metro lines with missing stop master data.
 
@@ -42,7 +42,7 @@ Studiengang Wirtschaftsinformatik B.Sc.
 5. Semester, Oktober-November 2019.  
 Das Projekt wurde im Rahmen der Lehrveranstaltung Ausgewählte Datenbankkonzepte/-techniken durchgeführt. Der Projektauftrag wurde mit der Note 1,0 abgeschlossen. 
 
-Die Prüfungsleistung dieser Lehrveranstaltung setzte sich aus der Bearbeitung von 3 Aufgaben zusammen, in denen ein Szenario aus dem Bereich des öffentlichen Nahverkehrs bearbeitet wurde. Einige Teile des Codes, wie z.B. die Anbindung an SAP HANA, wurden zunächst als Lernmaterial zur Verfügung gestellt.
+Die Prüfungsleistung dieser Lehrveranstaltung setzte sich aus der Bearbeitung von 3 Aufgaben zusammen, in denen ein Szenario aus dem Bereich des öffentlichen Nahverkehrs in Berlin bearbeitet wurde, basierend auf realen Kartendaten, die von einer externen API bereitgestellt wurden. Der Benutzer kann die Abfahrtszeit, die Adresse des Startortes und die Adresse des Zielortes eingeben und eine der folgenden Optionen wählen: die schnellste Route oder die geringste Anzahl von Stationen. Das Programm ermittelt die nächstgelegenen Start- und Endbahnhöfe von S- und U-Bahnen und berechnet die optimale Route anhand der eingegebenen Daten. Einige Teile des Codes, wie z.B. die Anbindung an SAP HANA, wurden zunächst als Lernmaterial zur Verfügung gestellt.
 
 **Aufgabe 1: Mobilität - Datenbeschaffung (30 Punkte).** Erstellung von Tabellen in der Datenbank und Entwicklung von JavaScript-Code, der Daten direkt aus dem Web in die Stage-Tabellen importiert und die Daten aus den Stage-Tabellen in die Zieltabellen überträgt. Die Daten müssen verarbeitet und gefiltert werden, wobei die Metrolinien mit fehlenden Haltestellenstammdaten ausgeschlossen werden müssen.
 
