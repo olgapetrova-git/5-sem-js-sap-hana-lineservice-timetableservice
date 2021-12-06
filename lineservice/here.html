@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <meta charset="UTF-8">
+  <meta name="description" content="Aufgabe 2. Liniensrvice. - Ausgewählte Datenbankkonzepte/-techniken, HTW Berlin" />
+  <meta name="author" content="Olga Petrova" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+  <script src="./clientjs/creds.js"></script>
+  <script src="./clientjs/process.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Linienservice</h1>
+  </div>
+  <div id="formular">
+
+    <p>Bitte geben Sie Ihren Wunsch ein, wohin Sie fahren möchten, einschließlich die Start- und Endadresse Ihrer Reise.
+    </p>
+    <form>
+
+      <label for="text">Abfrage: </label>
+      <input type="text" id="text" value="Ich möchte von der Güntzelstr. 10 in die Treskowallee 8" />
+
+      <input type="button" value="Senden" id="submit" onclick="process();" />
+    </form>
+  </div>
+
+  <div id="output_false">
+  </div>
+
+  <div id="output_true">
+    <div id="stations">
+      <div id="station_start"> </div>
+      <div id="station_end"></div>
+      <div id="clear"></div>
+      <div id="paths">
+        <div id="shortest_path"></div>
+      <div id="shortest_distance"></div>
+      <div id="min_linechanges"></div>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  
+
+
+
+
+</body>
+
+</html>

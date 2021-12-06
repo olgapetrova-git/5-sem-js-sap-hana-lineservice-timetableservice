@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="timetableservice">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aufgabe1/timetableservice.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

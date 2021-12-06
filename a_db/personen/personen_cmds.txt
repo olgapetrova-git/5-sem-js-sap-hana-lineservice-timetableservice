@@ -1,0 +1,3 @@
+truncate table person_stage;
+select * from person_stage;
+select count(*) from person_stage;

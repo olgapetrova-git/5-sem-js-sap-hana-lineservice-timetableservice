@@ -1,0 +1,166 @@
+body {
+	background-color: #edf2f5;
+	font-family: arial, sans-serif;
+	font-size: 1.05em;
+}
+
+h1 {
+	font-size: 1.6em;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#header {
+
+	position: relative;
+	top: 20px;
+	margin: auto;
+
+}
+#red_text
+{
+	font-weight: bold;
+	color: #800000;
+}
+#green_text
+{
+	font-weight: bold;
+	color: #008000;
+}
+#violet_text
+{
+	font-weight: bold;
+	color: #400080;
+}
+#formular {
+	width: 60%;
+	position: relative;
+
+	margin: auto;
+	margin-top: 30px;
+	padding: 10px;
+	background-color: #ffffff;
+	border: 3px solid #777777;
+	border-radius: 10px;
+}
+
+input[type=text],
+select {
+	width: 100%;
+	padding: 9px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+input[type=button] {
+	width: 100%;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1.25em;
+}
+
+input[type=button]:hover {
+	background-color: #b5bbbd;
+}
+
+#output_false {
+	display:none;
+	width: 60%;
+	position: relative;
+
+	margin: auto;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #ffffff;
+	border: 3px solid #777777;
+	border-radius: 10px;
+}
+
+#output_true {
+	display:none;
+}
+
+#stations {
+	width: 60%;
+	position: relative;
+
+	margin: auto;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #ffffff;
+	border: 3px solid #777777;
+	border-radius: 10px;
+
+}
+
+#station_start {
+	width: 47%;
+	position: relative;
+	margin-top: 5px;
+
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	float: left;
+}
+
+#station_end {
+	width: 47%;
+	position: relative;
+	margin-top: 5px;
+
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	float: right;
+
+}
+
+#clear {
+	clear: both;
+}
+
+#paths {
+	
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #ffffff;
+}
+
+#shortest_path {
+	width: 100%;
+	margin-bottom: 10px;
+	border-width: 1px;
+	border-bottom-style: dotted;
+	border-color: #ccc;
+}
+
+#shortest_distance {
+	width: 100%;
+	margin-bottom: 10px;
+	border-width: 1px;
+	border-bottom-style: dotted;
+	border-color: #ccc;
+}
+
+#min_linechanges {
+	width: 100%;
+	margin-bottom: 10px;
+	border-width: 1px;
+	border-bottom-style: dotted;
+	border-color: #ccc;
+}
+
+#map {
+	margin: auto;
+	margin-top: 10px;
+	height: 900px;
+}

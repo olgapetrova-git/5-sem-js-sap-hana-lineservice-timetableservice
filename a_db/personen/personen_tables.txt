@@ -1,0 +1,7 @@
+drop table person_stage;
+create table person_stage (
+    pid integer not null primary key,
+    gebdatum varchar(10),
+    name varchar(200)
+);
+

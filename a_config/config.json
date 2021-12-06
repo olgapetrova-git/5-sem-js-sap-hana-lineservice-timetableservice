@@ -1,0 +1,14 @@
+{
+    "hdb": {
+        "host": "hanaicla2.f4.htw-berlin.de",
+        "port": 39013,
+        "uid": "U562984",
+        "pwd": "Bcdefgh1",
+        "databaseName": "HXE"
+    },
+    "here": {
+        "app_id": "ZXsoFTmsE5p9KThQp7RZ",
+        "app_code": "YllrS7ZPbrdDrD4Mg3PyzA"
+    },
+    "tkapikey": "aaa"
+}
