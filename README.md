@@ -3,7 +3,8 @@
 Study project at the University of Applied Sciences Berlin (HTW Berlin).       
 My bachelor study program was Business Computing (Wirtschaftsinformatik B.Sc).   
 
-5. Semester, October-November 2019.    
+5. Semester, October-November 2019.     
+  
 The project was carried out as part of the course Special database concepts/techniques. The project assignment was completed with a grade of 1.0.
 
 The assessment of this course consisted of 3 tasks processing a scenario from the field of public transport in Berlin, based on real map data provided from an external API. The user can enter the departure time, the address of the starting location, the address of the final destination and select one of the following options: the fastest route or the least number of stations. The program will determine the nearest start and end stations suburban and subway trains and calculate the optimal route based on the given data. Some parts of the code such as connection to SAP HANA were initially provided as learning materials.
@@ -39,7 +40,8 @@ It is prohibited to use and hand in all or part of this project as your own stud
 Studienprojekt während des Studiums an der HTW Berlin (Hochschule für Technik und Wirtschaft Berlin).        
 Studiengang Wirtschaftsinformatik B.Sc.       
 
-5. Semester, Oktober-November 2019.  
+5. Semester, Oktober-November 2019.    
+
 Das Projekt wurde im Rahmen der Lehrveranstaltung Ausgewählte Datenbankkonzepte/-techniken durchgeführt. Der Projektauftrag wurde mit der Note 1,0 abgeschlossen. 
 
 Die Prüfungsleistung dieser Lehrveranstaltung setzte sich aus der Bearbeitung von 3 Aufgaben zusammen, in denen ein Szenario aus dem Bereich des öffentlichen Nahverkehrs in Berlin bearbeitet wurde, basierend auf realen Kartendaten, die von einer externen API bereitgestellt wurden. Der Benutzer kann die Abfahrtszeit, die Adresse des Startortes und die Adresse des Zielortes eingeben und eine der folgenden Optionen wählen: die schnellste Route oder die geringste Anzahl von Stationen. Das Programm ermittelt die nächstgelegenen Start- und Endbahnhöfe von S- und U-Bahnen und berechnet die optimale Route anhand der eingegebenen Daten. Einige Teile des Codes, wie z.B. die Anbindung an SAP HANA, wurden zunächst als Lernmaterial zur Verfügung gestellt.
@@ -50,8 +52,7 @@ Die Prüfungsleistung dieser Lehrveranstaltung setzte sich aus der Bearbeitung v
 
 **Aufgabe 3: Mobilität - Fahrplan-Service (50 Punkte).** Der Ordner *timetableservice* bezieht sich auf diese Aufgabe. Eine detaillierte Beschreibung dieser Aufgabe ist [hier](https://github.com/olgapetrova-git/5-sem-js-sap-hana-lineservice-timetableservice/blob/0f5e12e583d683916af824374194535503e12861/timetableservice/Petrova_0562984_Aufgabe%203.pdf) zu finden. 
 ## Technologie-Stack
-Das Projekt umfasst eine datenbankorientierte Programmierung, ein Web-Interface mit grafischer Kartendarstellung und eine Integration mit der externen API des Kartendienstes here.com. 
-Das Projekt wird unter Verwendung der folgenden Technologien entwickelt:
+Das Projekt umfasst eine datenbankorientierte Programmierung, ein Web-Interface mit grafischer Kartendarstellung und eine Integration mit der externen API des Kartendienstes here.com. Das Projekt wird unter Verwendung der folgenden Technologien entwickelt:   
 - JavaScript
 - Node.js-Integration
 - HANA-Datenbank-Technologie
